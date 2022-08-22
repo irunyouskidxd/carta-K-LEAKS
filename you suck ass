@@ -1,0 +1,615 @@
+--// kitty gui = gamerboi21 uwu --//
+
+local ScreenGui = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local ggkittysdhc = Instance.new("TextLabel")
+local MainTab = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local PlayerImage = Instance.new("ImageLabel")
+local UICorner = Instance.new("UICorner")
+local buttonFrame = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local Main = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local location = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local dropping = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local credits = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local LocationTab = Instance.new("Frame")
+local basketball = Instance.new("TextButton")
+local admin = Instance.new("TextButton")
+local tacobell = Instance.new("TextButton")
+local bank = Instance.new("TextButton")
+local droppingTab = Instance.new("Frame")
+local autodrop = Instance.new("TextButton")
+local unautodrop = Instance.new("TextButton")
+local fpsbooster = Instance.new("TextButton")
+local crasher = Instance.new("TextButton")
+local creditsTab = Instance.new("Frame")
+local carta = Instance.new("TextButton")
+local sniff = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = ScreenGui
+MainFrame.BackgroundColor3 = Color3.fromRGB(255, 252, 203)
+MainFrame.BorderSizePixel = 0
+MainFrame.Position = UDim2.new(0.150760725, 0, 0.186832741, 0)
+MainFrame.Size = UDim2.new(0, 397, 0, 258)
+
+ggkittysdhc.Name = "gg/kittysdhc"
+ggkittysdhc.Parent = MainFrame
+ggkittysdhc.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ggkittysdhc.BackgroundTransparency = 1.000
+ggkittysdhc.Position = UDim2.new(0.594458461, 0, -1.86264515e-09, 0)
+ggkittysdhc.Size = UDim2.new(0, 159, 0, 34)
+ggkittysdhc.Font = Enum.Font.ArialBold
+ggkittysdhc.Text = "discord.gg/kittysdhc"
+ggkittysdhc.TextColor3 = Color3.fromRGB(77, 77, 77)
+ggkittysdhc.TextSize = 14.000
+
+MainTab.Name = "MainTab"
+MainTab.Parent = MainFrame
+MainTab.BackgroundColor3 = Color3.fromRGB(222, 243, 255)
+MainTab.BorderSizePixel = 0
+MainTab.Position = UDim2.new(0.330814451, 0, 0.112306558, 0)
+MainTab.Size = UDim2.new(0, 265, 0, 228)
+MainTab.Visible = false
+
+TextLabel.Parent = MainTab
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.122641504, 0, 0.571403563, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.ArialBold
+TextLabel.Text = ""
+TextLabel.TextColor3 = Color3.fromRGB(77, 77, 77)
+TextLabel.TextSize = 14.000
+
+PlayerImage.Name = "PlayerImage"
+PlayerImage.Parent = MainTab
+PlayerImage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerImage.Position = UDim2.new(0.337236881, 0, 0.145348847, 0)
+PlayerImage.Size = UDim2.new(0, 100, 0, 100)
+PlayerImage.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+PlayerImage.SliceScale = 3.000
+
+UICorner.CornerRadius = UDim.new(0, 10)
+UICorner.Parent = PlayerImage
+
+buttonFrame.Name = "buttonFrame"
+buttonFrame.Parent = MainFrame
+buttonFrame.BackgroundColor3 = Color3.fromRGB(222, 243, 255)
+buttonFrame.BorderSizePixel = 0
+buttonFrame.Position = UDim2.new(-0.000372783368, 0, 0, 0)
+buttonFrame.Size = UDim2.new(0, 105, 0, 257)
+
+TextLabel_2.Parent = buttonFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0, 0, 0.064743273, 0)
+TextLabel_2.Size = UDim2.new(0, 105, 0, 0)
+TextLabel_2.Font = Enum.Font.ArialBold
+TextLabel_2.Text = "kittys gui"
+TextLabel_2.TextColor3 = Color3.fromRGB(77, 77, 77)
+TextLabel_2.TextSize = 15.000
+TextLabel_2.TextWrapped = true
+
+Main.Name = "Main"
+Main.Parent = MainFrame
+Main.BackgroundColor3 = Color3.fromRGB(255, 252, 203)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.0302267, 0, 0.15891473, 0)
+Main.Size = UDim2.new(0, 80, 0, 41)
+Main.Font = Enum.Font.ArialBold
+Main.Text = "main"
+Main.TextColor3 = Color3.fromRGB(77, 77, 77)
+Main.TextSize = 14.000
+
+UICorner_2.Parent = Main
+
+location.Name = "location"
+location.Parent = MainFrame
+location.BackgroundColor3 = Color3.fromRGB(255, 252, 203)
+location.BorderSizePixel = 0
+location.Position = UDim2.new(0.0302267, 0, 0.356589139, 0)
+location.Size = UDim2.new(0, 80, 0, 41)
+location.Font = Enum.Font.ArialBold
+location.Text = "location"
+location.TextColor3 = Color3.fromRGB(77, 77, 77)
+location.TextSize = 14.000
+
+UICorner_3.Parent = location
+
+dropping.Name = "dropping"
+dropping.Parent = MainFrame
+dropping.BackgroundColor3 = Color3.fromRGB(255, 252, 203)
+dropping.Position = UDim2.new(0.0302266981, 0, 0.558139503, 0)
+dropping.Size = UDim2.new(0, 80, 0, 41)
+dropping.Font = Enum.Font.ArialBold
+dropping.Text = "dropping"
+dropping.TextColor3 = Color3.fromRGB(77, 77, 77)
+dropping.TextSize = 13.000
+
+UICorner_4.Parent = dropping
+
+credits.Name = "credits"
+credits.Parent = MainFrame
+credits.BackgroundColor3 = Color3.fromRGB(255, 252, 203)
+credits.Position = UDim2.new(0.0302266981, 0, 0.759689927, 0)
+credits.Size = UDim2.new(0, 80, 0, 41)
+credits.Font = Enum.Font.ArialBold
+credits.Text = "credits"
+credits.TextColor3 = Color3.fromRGB(77, 77, 77)
+credits.TextSize = 13.000
+
+UICorner_5.Parent = credits
+
+LocationTab.Name = "LocationTab"
+LocationTab.Parent = MainFrame
+LocationTab.BackgroundColor3 = Color3.fromRGB(222, 243, 255)
+LocationTab.BorderSizePixel = 0
+LocationTab.Position = UDim2.new(0.3299748, 0, 0.116182551, 0)
+LocationTab.Size = UDim2.new(0, 265, 0, 227)
+LocationTab.Visible = false
+
+basketball.Name = "basketball"
+basketball.Parent = LocationTab
+basketball.BackgroundColor3 = Color3.fromRGB(255, 252, 203)
+basketball.BorderSizePixel = 0
+basketball.Position = UDim2.new(0.0264150947, 0, 0.180616736, 0)
+basketball.Size = UDim2.new(0, 105, 0, 33)
+basketball.Font = Enum.Font.ArialBold
+basketball.Text = "basketball"
+basketball.TextColor3 = Color3.fromRGB(0, 0, 0)
+basketball.TextSize = 14.000
+basketball.MouseButton1Down:connect(function()
+	plr.Character.HumanoidRootPart.CFrame = CFrame.new(-931.85, 22.19, -482.46)
+end)
+
+admin.Name = "admin"
+admin.Parent = LocationTab
+admin.BackgroundColor3 = Color3.fromRGB(255, 252, 203)
+admin.BorderSizePixel = 0
+admin.Position = UDim2.new(0.0264151096, 0, 0.361233473, 0)
+admin.Size = UDim2.new(0, 105, 0, 33)
+admin.Font = Enum.Font.ArialBold
+admin.Text = "admin"
+admin.TextColor3 = Color3.fromRGB(0, 0, 0)
+admin.TextSize = 14.000
+admin.MouseButton1Down:connect(function()
+	plr.Character.HumanoidRootPart.CFrame = CFrame.new(-416.42, 29.81, -284.22)
+end)
+
+tacobell.Name = "tacobell"
+tacobell.Parent = LocationTab
+tacobell.BackgroundColor3 = Color3.fromRGB(255, 252, 203)
+tacobell.BorderSizePixel = 0
+tacobell.Position = UDim2.new(0.498113215, 0, 0.180616736, 0)
+tacobell.Size = UDim2.new(0, 105, 0, 33)
+tacobell.Font = Enum.Font.ArialBold
+tacobell.Text = "taco bell"
+tacobell.TextColor3 = Color3.fromRGB(0, 0, 0)
+tacobell.TextSize = 14.000
+tacobell.MouseButton1Down:connect(function()
+	plr.Character.HumanoidRootPart.CFrame = CFrame.new(577 ,48, -472)
+end)
+
+bank.Name = "bank"
+bank.Parent = LocationTab
+bank.BackgroundColor3 = Color3.fromRGB(255, 252, 203)
+bank.BorderSizePixel = 0
+bank.Position = UDim2.new(0.498113215, 0, 0.356828183, 0)
+bank.Size = UDim2.new(0, 105, 0, 33)
+bank.Font = Enum.Font.ArialBold
+bank.Text = "bank"
+bank.TextColor3 = Color3.fromRGB(0, 0, 0)
+bank.TextSize = 14.000
+bank.MouseButton1Down:connect(function()
+	plr.Character.HumanoidRootPart.CFrame = CFrame.new(-416.42, 29.81, -284.22)
+end)
+
+droppingTab.Name = "droppingTab"
+droppingTab.Parent = MainFrame
+droppingTab.BackgroundColor3 = Color3.fromRGB(222, 243, 255)
+droppingTab.BorderSizePixel = 0
+droppingTab.Position = UDim2.new(0.331748128, 0, 0.119596377, 0)
+droppingTab.Size = UDim2.new(0, 265, 0, 227)
+droppingTab.Visible = false
+
+autodrop.Name = "autodrop"
+autodrop.Parent = droppingTab
+autodrop.BackgroundColor3 = Color3.fromRGB(255, 252, 203)
+autodrop.BorderSizePixel = 0
+autodrop.Position = UDim2.new(0.498113215, 0, 0.224669605, 0)
+autodrop.Size = UDim2.new(0, 105, 0, 33)
+autodrop.Font = Enum.Font.ArialBold
+autodrop.Text = "autodrop"
+autodrop.TextColor3 = Color3.fromRGB(0, 0, 0)
+autodrop.TextSize = 14.000
+autodrop.MouseButton1Down:connect(function()
+	while true do
+
+		local args = {
+			[1] = "DropMoney",
+			[2] = "10000"
+		}
+
+		game:GetService("ReplicatedStorage").MainEvent:FireServer(unpack(args))
+
+
+		task.wait()
+	end
+end)
+
+unautodrop.Name = "unautodrop"
+unautodrop.Parent = droppingTab
+unautodrop.BackgroundColor3 = Color3.fromRGB(255, 252, 203)
+unautodrop.BorderSizePixel = 0
+unautodrop.Position = UDim2.new(0.498113215, 0, 0.449339211, 0)
+unautodrop.Size = UDim2.new(0, 105, 0, 33)
+unautodrop.Font = Enum.Font.ArialBold
+unautodrop.Text = "unautodrop"
+unautodrop.TextColor3 = Color3.fromRGB(0, 0, 0)
+unautodrop.TextSize = 14.000
+unautodrop.MouseButton1Down:connect(function()
+	while true do
+
+		local args = {
+			[1] = "DropMoney",
+			[2] = "10000"
+		}
+
+		game:GetService("ReplicatedStorage").MainEvent:FireServer(unpack(args))
+
+
+		task.wait(1)
+		break
+
+	end
+end)
+fpsbooster.Name = "fpsbooster"
+fpsbooster.Parent = droppingTab
+fpsbooster.BackgroundColor3 = Color3.fromRGB(255, 252, 203)
+fpsbooster.BorderSizePixel = 0
+fpsbooster.Position = UDim2.new(0.0528301895, 0, 0.22466962, 0)
+fpsbooster.Size = UDim2.new(0, 105, 0, 33)
+fpsbooster.Font = Enum.Font.ArialBold
+fpsbooster.Text = "fpsbooster"
+fpsbooster.TextColor3 = Color3.fromRGB(0, 0, 0)
+fpsbooster.TextSize = 14.000
+fpsbooster.MouseButton1Down:connect(function()
+	local decalsyeeted = true -- Leaving this on makes games look shitty but the fps goes up by at least 20.
+	local g = game
+	local w = g.Workspace
+	local l = g.Lighting
+	local t = w.Terrain
+	t.WaterWaveSize = 0
+	t.WaterWaveSpeed = 0
+	t.WaterReflectance = 0
+	t.WaterTransparency = 0
+	l.GlobalShadows = false
+	l.FogEnd = 9e9
+	l.Brightness = 0
+	settings().Rendering.QualityLevel = "Level01"
+	for i, v in pairs(g:GetDescendants()) do
+		if v:IsA("Part") or v:IsA("Union") or v:IsA("CornerWedgePart") or v:IsA("TrussPart") then
+			v.Material = "Plastic"
+			v.Reflectance = 0
+		elseif v:IsA("Decal") or v:IsA("Texture") and decalsyeeted then
+			v.Transparency = 1
+		elseif v:IsA("ParticleEmitter") or v:IsA("Trail") then
+			v.Lifetime = NumberRange.new(0)
+		elseif v:IsA("Explosion") then
+			v.BlastPressure = 1
+			v.BlastRadius = 1
+		elseif v:IsA("Fire") or v:IsA("SpotLight") or v:IsA("Smoke") or v:IsA("Sparkles") then
+			v.Enabled = false
+		elseif v:IsA("MeshPart") then
+			v.Material = "Plastic"
+			v.Reflectance = 0
+			v.TextureID = 10385902758728957
+		end
+	end
+	for i, e in pairs(l:GetChildren()) do
+		if e:IsA("BlurEffect") or e:IsA("SunRaysEffect") or e:IsA("ColorCorrectionEffect") or e:IsA("BloomEffect") or e:IsA("DepthOfFieldEffect") then
+			e.Enabled = false
+		end
+	end
+end)
+
+crasher.Name = "crasher"
+crasher.Parent = droppingTab
+crasher.BackgroundColor3 = Color3.fromRGB(255, 252, 203)
+crasher.BorderSizePixel = 0
+crasher.Position = UDim2.new(0.0528301895, 0, 0.449339181, 0)
+crasher.Size = UDim2.new(0, 105, 0, 33)
+crasher.Font = Enum.Font.ArialBold
+crasher.Text = "swagmode crash"
+crasher.TextColor3 = Color3.fromRGB(0, 0, 0)
+crasher.TextSize = 14.000
+crasher.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()
+end)
+
+creditsTab.Name = "creditsTab"
+creditsTab.Parent = MainFrame
+creditsTab.BackgroundColor3 = Color3.fromRGB(222, 243, 255)
+creditsTab.BorderSizePixel = 0
+creditsTab.Position = UDim2.new(0.34005037, 0, 0.104651161, 0)
+creditsTab.Size = UDim2.new(0, 262, 0, 230)
+creditsTab.Visible = false
+
+carta.Name = "carta"
+carta.Parent = creditsTab
+carta.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+carta.BackgroundTransparency = 1.000
+carta.Position = UDim2.new(0.286259532, 0, 0, 0)
+carta.Size = UDim2.new(0, 111, 0, 32)
+carta.Font = Enum.Font.SourceSans
+carta.Text = "cartaaa#9325 scripted and made the hole thing"
+carta.TextColor3 = Color3.fromRGB(77, 77, 77)
+carta.TextSize = 15.000
+
+sniff.Name = "sniff"
+sniff.Parent = creditsTab
+sniff.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+sniff.BackgroundTransparency = 1.000
+sniff.Position = UDim2.new(0.286259532, 0, 0.100000001, 0)
+sniff.Size = UDim2.new(0, 111, 0, 32)
+sniff.Font = Enum.Font.SourceSans
+sniff.Text = "sneax#7777 idk what he did but sure"
+sniff.TextColor3 = Color3.fromRGB(77, 77, 77)
+sniff.TextSize = 15.000
+
+-- Scripts:
+
+local function XRLVJ_fake_script() -- TextLabel.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel)
+
+	while true do 
+		wait(0.5)
+		script.Parent.Text = game.Players.LocalPlayer.DataFolder.Currency.Value
+	end
+	
+end
+coroutine.wrap(XRLVJ_fake_script)()
+local function WFAMGVI_fake_script() -- MainTab.user thumbnail 
+	local script = Instance.new('LocalScript', MainTab)
+
+	local Frame = script.Parent
+	
+	local player = game.Players.LocalPlayer
+	
+	local userId = player.UserId
+	local thumtype = Enum.ThumbnailType.AvatarBust
+	local thumsize = Enum.ThumbnailSize.Size420x420
+	local content = game.Players:GetUserThumbnailAsync(userId, thumtype, thumsize)
+	Frame.PlayerImage.Image = content
+	Frame.PlayerName.Text = player.Name
+end
+coroutine.wrap(WFAMGVI_fake_script)()
+local function LUFRDRG_fake_script() -- Main.LocalScript 
+	local script = Instance.new('LocalScript', Main)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.MainTab.Visible = true
+		script.Parent.Parent.LocationTab.Visible = false
+		script.Parent.Parent.creditsTab.Visible = false
+		script.Parent.Parent.droppingTab.Visible = false
+		wait(1)
+	end)
+end
+coroutine.wrap(LUFRDRG_fake_script)()
+local function SAKA_fake_script() -- location.LocalScript 
+	local script = Instance.new('LocalScript', location)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.MainTab.Visible = false
+		script.Parent.Parent.LocationTab.Visible = true
+		script.Parent.Parent.creditsTab.Visible = false
+		script.Parent.Parent.droppingTab.Visible = false
+		wait(1)
+	end)
+	
+end
+coroutine.wrap(SAKA_fake_script)()
+local function FCRJL_fake_script() -- dropping.LocalScript 
+	local script = Instance.new('LocalScript', dropping)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.MainTab.Visible = false
+		script.Parent.Parent.LocationTab.Visible = false
+		script.Parent.Parent.creditsTab.Visible = false
+		script.Parent.Parent.droppingTab.Visible = true
+		wait(1)
+	end)
+	
+end
+coroutine.wrap(FCRJL_fake_script)()
+local function CLYA_fake_script() -- credits.LocalScript 
+	local script = Instance.new('LocalScript', credits)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.MainTab.Visible = false
+		script.Parent.Parent.LocationTab.Visible = false
+		script.Parent.Parent.creditsTab.Visible = true
+		script.Parent.Parent.droppingTab.Visible = false
+		wait(1)
+	end)
+	
+end
+coroutine.wrap(CLYA_fake_script)()
+local function RIIKN_fake_script() -- ScreenGui.DraggableforMainframe 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	frame = script.Parent.MainFrame
+	frame.Draggable = true
+	frame.Active = true
+	frame.Selectable = true     
+end
+coroutine.wrap(RIIKN_fake_script)()
+------------------------------------------------------
+old source 
+getgenv().host = 'username'
+getgenv().FPS = 5
+getgenv().prefix = '?'
+getgenv().alts = {
+    Alt1 = 1234,
+    Alt2 = 1234,  
+    Alt3 = 1234,
+}
+
+if getgenv().host == game.Players.LocalPlayer.Name then
+    getgenv().ExecutedAlt = true
+-- host gui here
+    return
+end
+
+
+
+
+
+
+if getgenv().alts == game.Players.LocalPlayer.UserId then
+    UserSettings().GameSettings.MasterVolume = 0
+end
+
+
+coroutine.wrap(function()
+	local Tries = 1
+	repeat wait(1)Tries = 1 pcall(setfpscap, getgenv().FPS) -- finding the local fps 
+	pcall(set_fps_cap, getgenv().FPS) until Tries > 50
+end)()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MsorkyScripts/OpenSourceAntiCheat/main/AntiCheatBypass.txt"))() -- anti cheat
+
+
+pcall(setfpscap, getgenv().FPS) -- fps for script
+pcall(set_fps_cap, getgenv().FPS)
+
+
+-- cpu rendering screen
+
+-- renderings:
+
+local CPUSaver = Instance.new("ScreenGui")
+local BlackBackground = Instance.new("Frame")
+local UIScale = Instance.new("UIScale")
+local FPSText = Instance.new("TextLabel")
+local UsernameText = Instance.new("TextLabel")
+local VersionText = Instance.new("TextLabel")
+local ThankMessage = Instance.new("TextLabel")
+local CashText = Instance.new("TextLabel")
+
+--Properties:
+
+CPUSaver.Name = "CPUSaver"
+CPUSaver.Parent = game.C
+CPUSaver.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+BlackBackground.Name = "BlackBackground"
+BlackBackground.Parent = CPUSaver
+BlackBackground.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+BlackBackground.BorderColor3 = Color3.fromRGB(0, 0, 0)
+BlackBackground.Position = UDim2.new(-0.175794899, 0, -0.255875856, 0)
+BlackBackground.Size = UDim2.new(0, 3000, 0, 3043)
+
+UIScale.Parent = BlackBackground
+
+FPSText.Name = "FPSText"
+FPSText.Parent = CPUSaver
+FPSText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FPSText.BackgroundTransparency = 1.000
+FPSText.Position = UDim2.new(0.445948333, 0, 0.449188828, 0)
+FPSText.Size = UDim2.new(0, 200, 0, 39)
+FPSText.Font = Enum.Font.GothamBold
+FPSText.Text = "FPS"
+FPSText.TextColor3 = Color3.fromRGB(255, 255, 255)
+FPSText.TextSize = 36.000
+
+
+VersionText.Name = "VersionText"
+VersionText.Parent = CPUSaver
+VersionText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VersionText.BackgroundTransparency = 1.000
+VersionText.Position = UDim2.new(0.446473211, 0, 0.651711762, 0)
+VersionText.Size = UDim2.new(0, 200, 0, 50)
+VersionText.Font = Enum.Font.GothamBold
+VersionText.Text = "V1"
+VersionText.TextColor3 = Color3.fromRGB(255, 255, 255)
+VersionText.TextSize = 36.000
+
+ThankMessage.Name = "ThankMessage"
+ThankMessage.Parent = CPUSaver
+ThankMessage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ThankMessage.BackgroundTransparency = 1.000
+ThankMessage.Position = UDim2.new(0.323545486, 0, 0.523246706, 0)
+ThankMessage.Size = UDim2.new(0, 677, 0, 94)
+ThankMessage.Font = Enum.Font.SourceSansItalic
+ThankMessage.Text = "Thank You For Using Cartas Alt Control!"
+ThankMessage.TextColor3 = Color3.fromRGB(255, 255, 255)
+ThankMessage.TextSize = 52.000
+
+
+
+-- Scripts:
+
+local function GKCF_fake_script() -- FPSText.LocalScript 
+	local script = Instance.new('LocalScript', FPSText)
+
+	while wait() do
+		local fps = game.Workspace:GetRealPhysicsFPS()
+		script.Parent.Text = "FPS " ..fps
+		wait()
+	end
+end
+coroutine.wrap(GKCF_fake_script)()
+local function KRYFKE_fake_script() -- UsernameText.UsernameScript 
+	local script = Instance.new('LocalScript', UsernameText)
+
+	local script = Instance.new('LocalScript', UsernameScript)
+	
+	local user = game.Players.LocalPlayer.Name
+	local txt = script.Parent
+	
+	txt.Text = "Hello," ..user
+end
+coroutine.wrap(KRYFKE_fake_script)()
+local function YMRXP_fake_script() -- CashText.LocalScript 
+	local script = Instance.new('LocalScript', CashText)
+
+	local text = script.Parent.text
+	
+	while true do
+		wait(0.1)
+		text = game.Players.LocalPlayer.DataFolder.Currency.Value
+	end
+end
+coroutine.wrap(YMRXP_fake_script)()
+
+
+
+-- anti afk
+
+local vu = game:GetService("VirtualUser")
+game:GetService("Players").LocalPlayer.Idled:connect(function()
+    vu:Button2Down(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
+    wait(1)
+     vu:Button2Up(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
+end)
+     
+
+
+
+local finalMsg = Message:lower()
+            if finalMsg == getgenv().prefix .. "setup admin" then
+                if game.Players.LocalPlayer.UserId == getgenv().controller then
+
+				end
+			end
